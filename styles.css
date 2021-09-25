@@ -15,9 +15,6 @@ body {
 }
 /* Link Styles */
 
-
-.
-
 a {
   text-decoration: none;
   color: #999;
@@ -83,6 +80,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.6) rotate(7deg);
 }
+
 .tag {
   
   color: black;
@@ -93,7 +91,17 @@ header .profile-image:hover {
 } 
 .location {
   
-  color: #61892F;
+  color:  #044d43;
+}
+.card1 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 400px;
+  text-align: center;
+  background: black;
+  border-bottom: 4px solid #ccc ;
+  border-radius: 6px;
+  transition: all .5s;
 }
 .card {
   margin: 30px;
@@ -106,6 +114,9 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
+  border-color: #044d43;
+}
+.card1:hover {
   border-color: #044d43;
 }
 
